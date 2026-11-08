@@ -1,0 +1,1 @@
+"""Authorized football data providers."""

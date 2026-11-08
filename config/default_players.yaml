@@ -1,0 +1,10 @@
+players:
+  to_crawl:
+    - name: Cristiano Ronaldo
+      provider: api_football
+      provider_player_id: "874"
+      resolution_status: resolved
+      desired_historical_from_season: 2003
+      crawl_from_season: 2022
+      crawl_to_season: current
+  completed_players: []

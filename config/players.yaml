@@ -1,0 +1,23 @@
+players:
+  to_crawl:
+    - name: Cristiano Ronaldo
+      provider: api_football
+      provider_player_id: "874"
+      resolution_status: resolved
+      desired_historical_from_season: 2003
+      crawl_from_season: 2022
+      crawl_to_season: current
+    - name: Lionel Messi
+      provider: api_football
+      provider_player_id: null
+      current_team_name: Inter Miami
+      resolution_status: pending
+      resolution_seasons:
+        - 2023
+        - 2024
+      attempted_resolution_seasons:
+        - 2022
+      desired_historical_from_season: 2004
+      crawl_from_season: 2022
+      crawl_to_season: current
+  completed_players: []

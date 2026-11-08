@@ -1,0 +1,41 @@
+project:
+  name: football-player-history
+  version: 0.2.0
+
+paths:
+  base_data_path: data
+  downloads_dir: data/downloads
+  output_dir: data/output
+  checkpoints_dir: data/checkpoints
+  json_dir: data/json
+  temp_dir: data/temp
+  logs_dir: data/output/logs
+
+database:
+  name: football_history.sqlite3
+  path: db/football_history.sqlite3
+
+api:
+  provider: api_football
+  base_url: https://v3.football.api-sports.io
+  request_timeout_seconds: 30
+  max_retries: 3
+  retry_backoff_seconds: 2
+  requests_per_day: 80
+  daily_request_safety_margin: 0
+
+crawling:
+  batch_size: 25
+  delay_between_requests_seconds: 1.0
+  save_raw_json: true
+  overwrite_existing: false
+  max_resolution_pages: 20
+
+resolution:
+  minimum_name_similarity: 0.85
+  prefer_exact_match: true
+
+logging:
+  level: INFO
+  console: true
+  file: true
