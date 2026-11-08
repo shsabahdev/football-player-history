@@ -30,7 +30,7 @@ This result does not verify live API compatibility, complete data coverage, prod
 
 This repository provides software demonstrating how to request and process data from API-Football. It is not a football dataset, does not provide an API subscription or API key, and does not grant access to data beyond the permissions and coverage of your own API-Football account.
 
-Users must supply their own API-Football credentials and comply with the applicable subscription limits, rate limits, and terms. Available seasons, endpoints, and historical coverage depend on API-Football and the user's account/subscription. Availability can vary, and no coverage is guaranteed.
+Users must obtain their own API-Football account and subscription, as applicable, supply their own API key, and comply with the applicable subscription limits, rate limits, and API-Football Terms of Service. Available seasons, endpoints, and historical coverage depend on API-Football and the user's account/subscription. Availability can vary, and no coverage is guaranteed.
 
 The project’s MIT License applies to project-owned source code and documentation. It does not grant rights to API-Football data, API responses, downloaded databases, player images, team or league logos, trademarks, or other third-party materials.
 
